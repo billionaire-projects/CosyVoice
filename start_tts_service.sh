@@ -8,7 +8,8 @@ set -e
 
 # Configuration
 PORT=${COSYVOICE_PORT:-50000}
-MODEL_DIR=${COSYVOICE_MODEL_DIR:-"pretrained_models/CosyVoice2-0.5B"}
+# MODEL_DIR=${COSYVOICE_MODEL_DIR:-"pretrained_models/CosyVoice2-0.5B"}
+MODEL_DIR=${COSYVOICE_MODEL_DIR:-"pretrained_models/CosyVoice-300M-SFT"}
 HOST=${COSYVOICE_HOST:-"0.0.0.0"}
 
 # Get the directory where this script is located
